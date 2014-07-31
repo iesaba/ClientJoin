@@ -24,5 +24,5 @@ public OnClientPutInServer(client)
 		country = "ERR";
 
 	PrintToChatAll("[Iesaba] \x04%s\x01 has joined (\x08%s\x01)", name, country);
-	PrintToServer("%s has joined (%s) %s", name, country, ip);
+	LogMessage("%s has joined (%s) %s", name, country, ip);
 }
